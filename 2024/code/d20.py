@@ -59,6 +59,8 @@ class Racetrack:
                     0 <= nx < self.rows
                     and 0 <= ny < self.cols
                     and self.grid[nx][ny] != "#"
+                    and self.distance_from_start[(nx, ny)]
+                    > self.distance_from_start[pos]
                 ):
                     positions.append((nx, ny))
 
@@ -68,6 +70,8 @@ class Racetrack:
                     and 0 <= nx < self.rows
                     and 0 <= ny < self.cols
                     and self.grid[nx][ny] != "#"
+                    and self.distance_from_start[(nx, ny)]
+                    > self.distance_from_start[pos]
                 ):
                     positions.append((nx, ny))
 
