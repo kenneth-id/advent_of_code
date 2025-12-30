@@ -1,5 +1,7 @@
 (lang dune 3.15)
 
+(formatting (enabled_for ocaml))
+
 (name aoc_2025)
 
 (generate_opam_files true)
@@ -19,7 +21,7 @@
  (name aoc_2025)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune core)
  (tags
   (topics "to describe" your project)))
 

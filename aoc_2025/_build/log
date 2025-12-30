@@ -1,6 +1,0 @@
-# dune init project aoc_2025
-# OCAMLPARAM: unset
-# Shared cache: disabled
-# Shared cache location: /Users/kennethlee/.cache/dune/db
-# Workspace root: /Users/kennethlee/workspace/aoc/aoc_2025
-# Auto-detected concurrency: 12
